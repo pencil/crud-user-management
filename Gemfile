@@ -22,7 +22,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'active_scaffold'
+gem 'active_scaffold', '~> 3.3.0.rc3'
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'

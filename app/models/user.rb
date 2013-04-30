@@ -3,4 +3,8 @@ class User < ActiveRecord::Base
 
   attr_accessible :login
   has_secure_password
+
+  def to_s
+    "#{login} (#{to_param})"
+  end
 end
